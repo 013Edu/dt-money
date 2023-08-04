@@ -5,7 +5,6 @@ import { FaSearch } from "react-icons/fa"
 
 import * as z from "zod"
 import { zodResolver } from "@hookform/resolvers/zod";
-import { useContext } from "react";
 import { TransactionContext } from "../../../../contexts/TransactionsContext";
 
 import { useContextSelector } from "use-context-selector"

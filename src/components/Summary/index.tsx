@@ -1,4 +1,3 @@
-import { useContext } from "react";
 
 import { SummaryCard, SummaryContainer } from "./styles";
 
