@@ -1,27 +1,73 @@
-# React + TypeScript + Vite
+# **Dt Money - Controle Financeiro**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![dt](https://github.com/013Edu/dt-money/assets/91925011/96702045-8924-460e-80da-eecb2de524df)
 
-Currently, two official plugins are available:
+## Descrição do Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Dt Money é um projeto para controle de transações financeiras. Com ele, você pode adicionar suas receitas e despesas, e ter uma visão clara de como está gerenciando suas finanças.
 
-## Expanding the ESLint configuration
+## Tecnologias Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **ReactJS**
+- **TypeScript**
+- **JSON Server**
 
-- Configure the top-level `parserOptions` property like this:
+## Funcionalidades
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+- Adicionar uma nova transação, informando o título, o valor e o tipo (receita ou despesa).
+- Visualizar todas as transações registradas.
+- Verificar o saldo atual com base nas transações.
+
+## Como Executar o Projeto
+
+### Pré-requisitos
+
+Antes de começar, você precisa ter instalado em sua máquina o **Node.js** e o **npm**.
+
+### Passo 1: Clonar o repositório
+
+```
+git clone https://github.com/seu-usuario/dt-money.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Passo 2: Instalar as dependências
+
+```
+cd dt-money
+npm install
+```
+
+### Passo 3: Iniciar a aplicação
+
+```
+npm start
+```
+
+A aplicação estará disponível em: `http://localhost:3000`
+
+### Passo 4: Iniciar o servidor JSON
+
+```
+npm run server
+```
+
+O servidor estará disponível em: `http://localhost:5000`
+
+## Contribuindo
+
+Se quiser contribuir para o projeto, siga os passos abaixo:
+
+1. Faça um fork do projeto
+2. Crie uma nova branch com a sua feature: `git checkout -b feature/minha-feature`
+3. Faça o commit das suas alterações: `git commit -m 'Adicionando uma nova feature'`
+4. Faça o push para o repositório: `git push origin feature/minha-feature`
+
+## Licença
+
+Este projeto está sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.
+
+## Contato
+
+Se tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato:
+
+- E-mail: sobral.je81@gmail.com
