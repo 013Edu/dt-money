@@ -1,6 +1,7 @@
 # **Dt Money - Controle Financeiro**
 
-![dt](https://github.com/013Edu/dt-money/assets/91925011/96702045-8924-460e-80da-eecb2de524df)
+![dt](https://github.com/013Edu/dt-money/assets/91925011/219bda37-50ff-4e7f-8596-f260d9ed3656)
+
 
 ## Descrição do Projeto
 
