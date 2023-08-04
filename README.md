@@ -49,7 +49,7 @@ A aplicação estará disponível em: `http://localhost:3000`
 ### Passo 4: Iniciar o servidor JSON
 
 ```
-npm run server
+npm run dev:server
 ```
 
 O servidor estará disponível em: `http://localhost:5000`
