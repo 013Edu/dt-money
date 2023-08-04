@@ -27,11 +27,27 @@ export const TransactionsTable = styled.table`
         border-top-right-radius: 6px;
         border-bottom-right-radius: 6px;
     }
+
+    @media(max-width: 641px) {
+      width: 100%;
+      margin: 0.1rem 0;
   }
+  }
+
+  tr {
+    @media(max-width: 641px) {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      margin: 1rem 0;
+  }
+  
+  }
+ 
 `;
 
 interface PriceHighlight {
-    variant: "income" | "outcome";
+  variant: "income" | "outcome";
 }
 
 export const PriceHighlight = styled.span<PriceHighlight>`

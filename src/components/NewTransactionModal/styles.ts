@@ -23,6 +23,11 @@ export const Content = styled(Dialog.Content)`
   left: 50%;
   transform: translate(-50%, -50%);
 
+  @media(max-width: 520px) {
+    min-width: 20rem;
+    padding: 1.25rem 1.5rem;
+  }
+
   form {
     margin-top: 2rem;
 
