@@ -56,7 +56,12 @@ export const ButtonRegister = styled.button`
     margin-top: 1.5rem;
     cursor: pointer;
 
-    &:hover {
+    :disabled {
+      opacity: 0.1;
+      cursor: not-allowed;
+    }
+
+    &:not(:disabled):hover {
     background-color: ${props => props.theme['green-700']};
     transition: background-color 0.3s;
     }
@@ -82,7 +87,7 @@ export const TransactionType = styled(RadioGroup.Root)`
 `;
 
 interface ButtonProps {
-    variant?: "income" | "outcome";
+  variant?: "income" | "outcome";
 }
 
 export const TransactionTypeButton = styled(RadioGroup.Item) <ButtonProps>`
